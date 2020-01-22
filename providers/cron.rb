@@ -1,5 +1,3 @@
-default_action :create
-
 action :create do
 	server_name = OpsWorksUtil::this_instance()['shortname']
 
