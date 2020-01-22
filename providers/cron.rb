@@ -12,6 +12,11 @@ action :create do
 			month new_resource.month
 			weekday new_resource.weekday
 			path new_resource.path
+			command new_resource.command
+			mailto new_resource.mailto
+			environment new_resource.environment
+			home new_resource.home
+			shell new_resource.shell
 		end
 	end
 end
